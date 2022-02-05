@@ -1,6 +1,6 @@
 <template>
   <header>
-      <h1>Bloggy Vue</h1>
+      <img src="../assets/logo.png" alt="">
       <nav>
           <router-link :to="{name:'Home'}">Home</router-link>
           <router-link :to="{name:'Create'}">Create</router-link>
@@ -22,6 +22,9 @@ export default {
     max-width: 1200px;
     margin: 0 auto;
     padding: 10px;
+  }
+  header img {
+    width:200px;
   }
   header h1 {
     color: #dfdfdf;
